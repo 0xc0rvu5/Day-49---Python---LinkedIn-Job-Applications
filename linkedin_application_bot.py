@@ -13,7 +13,7 @@ OPTIONS = Options()
 #open in debugger mode
 OPTIONS.add_experimental_option('debuggerAddress', '127.0.0.1:9014')
 DRIVER = webdriver.Chrome(PATH, options=OPTIONS)
-LINKEDIN_URL = '0xc0rvu5'
+LINKEDIN_URL = 'corvus@0xc0rvu5.com'
 
 
 def launch_browser():
