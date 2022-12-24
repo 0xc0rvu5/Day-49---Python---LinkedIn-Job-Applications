@@ -17,7 +17,7 @@ LINKEDIN_URL = '0xc0rvu5'
 
 
 def launch_browser():
-    '''Run a Selenium driven browser and apply for LinkedIn jobs automatically.'''
+    '''Run debugger-mode, sign into LinkedIn, follow pre_requisite.md then begin applying to jobs.'''
     DRIVER.get(LINKEDIN_URL)
     
     sleep(5)
