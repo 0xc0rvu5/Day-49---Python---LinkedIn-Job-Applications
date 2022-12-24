@@ -41,7 +41,9 @@ def launch_browser():
             sleep(3)
             print(Fore.GREEN + 'Beginning application process...')
 
-            #instantiation of each individual element was deemed necessary to target each individual window. this applies for next1, next2, review and final_submit. five_buttons indicates that the application process will require additional user input which often varies significantly; thus, moving to the next application.
+            #instantiation of each individual element was deemed necessary to target each individual window. this applies for next1, next2, 
+            #review and final_submit. five_buttons indicates that the application process will require additional user input which often 
+            #varies significantly; thus, moving to the next application.
             next1 = DRIVER.find_element(By.CSS_SELECTOR, 'footer button')
             next1.click()
 
